@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    nav{
+        display: flex;
+        height: 3rem;
+        background-color: antiquewhite;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .container2 p{
+        display: inline;
+        margin: 1rem;
+        justify-content: flex-end;
+    }
+    section{
+        display:flex;
+        padding: 2rem;
+        gap: 2rem;
+        margin: 2rem;
+    }
+    .card-container{
+       width: 250px;
+       height: 300px; 
+       gap: 1rem;
+    }
+    .card-headr{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        font-size: xx-large;
+        background-color: rgb(225, 231, 237);
+    }
+    .card-body{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        height: 250px;
+        background-color: rgb(239, 237, 241);
+    }
+    .card-body h1{
+        display: flex;
+        justify-content: center;
+    }
+    .title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cardcontaner{
+        display: flex;
+        flex-direction: row;
+    }
+</style>   
+<body>
+    <nav>
+        <div class="container">
+            <p>Company name</p>
+        </div>
+        <div class="container2">
+            <p>Features</p>
+            <p>Enterprise</p>
+            <p>Support</p>
+            <p>Pricing</p>
+            <button>Sign up</button>
+        </div>
+    </nav>
+    <section>
+        <div class="title">
+            <h1>Pricing</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus unde consequatur earum esse minima a eveniet magni provident tenetur necessitatibus!</p>
+        </div>
+        <div clacc="cardcontaner">
+            
+            </div><div class="card-container">
+                <div class="card-headr">Pro</div>
+                <div class="card-body">
+                    <h1>$15 / mo</h1>
+                    <p>20 esers included<br>10GB of storage<br>Priority email support<br>Help center access
+                    </p>
+                    <button>Get started</button>
+                </div>
+            </div><div class="card-container">
+                <div class="card-headr">Pro</div>
+                <div class="card-body">
+                    <h1>$15 / mo</h1>
+                    <p>20 esers included<br>10GB of storage<br>Priority email support<br>Help center access
+                    </p>
+                    <button>Get started</button>
+                </div>
+            </div><div class="card-container">
+                <div class="card-headr">Pro</div>
+                <div class="card-body">
+                    <h1>$15 / mo</h1>
+                    <p>20 esers included<br>10GB of storage<br>Priority email support<br>Help center access
+                    </p>
+                    <button>Get started</button>
+                </div>
+        </div>
+    </section>
+</body>
+</html>

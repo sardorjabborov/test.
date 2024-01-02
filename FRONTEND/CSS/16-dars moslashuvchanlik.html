@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        display: flex;
+        justify-content: space-around;
+    }
+   .box{
+    width: 200px;
+    height: 400px;
+    background-color: red;
+   }
+   .container>.box:last-child{
+    background-color: blue;
+   }
+   .container>.box:nth-child(2){
+    background-color: gray;
+   }
+   @media(max-width:800px){
+    .container{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .container>.box:last-child{
+    background-color: rgb(209, 209, 225);
+   }
+   .container>.box:nth-child(2){
+    background-color: rgb(41, 28, 28)
+   }
+   .box{
+    width: 100%;
+   }
+</style>
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>

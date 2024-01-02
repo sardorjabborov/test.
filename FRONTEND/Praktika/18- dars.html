@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="english">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike</title>
+</head>
+<style>
+    header{
+        display: flex;
+        width: 100%;
+        height: 3rem;
+        background-color: antiquewhite;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #nike-size{
+        width: 50px;
+    }
+    .container1{
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+    }
+    #nike-size2{
+        width: 100px;
+    }
+    #lupa{
+        width: 30px;
+    }
+    nav{
+display: flex;
+justify-content: space-around;
+align-items: center;
+    }
+.container3{
+
+    display: flex;
+gap: 2rem;
+}
+button{
+    width: 70px;
+    height: 30px;
+    margin-top: 1rem;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+align-items: center;
+}
+.inner{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+animation: mymove;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+position: relative;
+}
+@keyframes mymove{
+    from{right: 0px;}
+    to{right: 200px;}
+}
+.text1{
+    display: flex;
+    justify-content: center;
+}
+.text2{
+    margin-left: 3rem;
+}
+#krasovka{
+    width: 200px;
+}
+.img{
+    display: flex;
+    justify-content: space-around;
+}
+#footerimg{
+    width: 50px;
+    border-radius: 50%;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+footer{
+    background-color: brown;
+    width: 100%;
+    margin-top: 3rem;
+}
+section{
+    margin-top: 3rem;
+}
+</style>
+<body>
+ <header>
+    <div class="container">
+        <img src="./nike 1.webp" alt="" id="nike-size">
+        <img src="./nike 2.webp" alt="" id="nike-size">
+    </div>
+    <div class="container1">
+        <p>Find a store</p>
+        <p>Help</p>
+        <p>Join us</p>
+        <button>Singn in</button>
+    </div>
+ </header>
+ <nav>
+    <div class="container2">
+        <img src="./nike 1.webp" alt="" id="nike-size2">
+    </div>
+    <div class="container3">
+        <h3>Nike Black Friday</h3>
+        <h3>New & Featured</h3>
+        <h3>Men</h3>
+        <h3>Women</h3>
+        <h3>Sale</h3>
+        <button>
+            <img src="./magnifying-glass.png" alt="" id="lupa">
+        </button>
+    </div>
+ </nav>
+ <div class="slider">
+    <div class="inner">
+        <h1>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita harum officia optio tempore nobis exercitationem quas sunt quae aliquid iste?</h1>
+    </div>
+ </div>
+ <section>
+    <div class="text1">
+<h1>THE PRODUCT YOU ARE LOOKING FOR IS NO LONGER AVAILABLE</h1>
+    </div>
+    <div class="text2">
+        <h3>You Might Also Like</h3>
+    </div>
+    <div class="img">
+         <img src="./krasovka.jpg" alt="" id="krasovka"></p>
+        <img src="./krasovka.jpg" alt="" id="krasovka">
+        <img src="./krasovka.jpg" alt="" id="krasovka">
+        <img src="./krasovka.jpg" alt="" id="krasovka">
+        <img src="./krasovka.jpg" alt="" id="krasovka">
+        
+    </div>
+ </section>
+ <footer>
+    <div class="footer">
+        <div class="footer1">
+            <h3>GFT CARDS</h3>
+            <h3>GFT CARDS</h3>
+            <h3>GFT CARDS</h3>
+            <h3>GFT CARDS</h3>
+            <h3>GFT CARDS</h3>
+            <h3>GFT CARDS</h3>
+            <h3>GFT CARDS</h3>
+        </div>
+        <div class="footer2">
+            <h3>nimadir</h3>
+            <h3>nimadir</h3>
+            <h3>nimadir</h3>
+            <h3>nimadir</h3>
+            <h3>nimadir</h3>
+            <h3>nimadir</h3>
+        </div>
+        <div class="footer3">
+            <h3>nimadir</h3>
+            <h3>nimadir</h3>
+            <h3>nimadir</h3>
+            <h3>nimadir</h3>
+            <h3>nimadir</h3>
+            <h3>nimadir</h3>
+            <h3>nimadir</h3>
+            <h3>nimadir</h3>
+            <h3>nimadir</h3>
+        </div>
+        <div class="footer4">
+            <img src="./fesbok.webp" alt="" id="footerimg">
+            <img src="./gogl.webp" alt="" id="footerimg">
+            <img src="./yotub.webp" alt="" id="footerimg">
+        </div>
+    </div>
+ </footer>
+</body>
+</html>

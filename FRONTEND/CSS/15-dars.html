@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        width: 400px;
+        background-color: aqua;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .container > .inner{
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        margin: 13px;
+    }
+    .container>.inner:first-child{
+        background-color: yellow;
+    }
+    .container>.inner:last-child{
+        background-color: blue;
+    }
+    .container>.inner:nth-child(2){
+        background-color: azure;
+    }
+    .container>.inner:nth-child(3){
+        background-color: rgb(1, 24, 24);
+    }
+    .container>.inner:nth-child(4){
+        background-color: red;
+    }
+    .container>.inner:nth-child(5){
+        background-color: fuchsia;
+    }
+    .container>.inner:nth-child(6){
+        background-color: saddlebrown;
+    }
+    .container>.inner:nth-child(7){
+        background-color: gray;
+    }
+    .container>.inner:nth-child(8){
+        background-color: green;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="inner"></div>
+        <div class="inner"></div>
+        <div class="inner"></div>
+        <div class="inner"></div>
+        <div class="inner"></div>
+        <div class="inner"></div>
+        <div class="inner"></div>
+        <div class="inner"></div>
+        <div class="inner"></div>
+    </div>
+</body>
+</html>

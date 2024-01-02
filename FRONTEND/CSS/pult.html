@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pult</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        width: 450px;
+        height: 650px;
+        background-color: black;
+        margin: 8%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 5rem;
+    }
+    .round{
+        width: 70px;
+        height: 70px;
+        background-color: red;
+        border-radius: 50%;
+        text-align: center;
+        font-size: xx-large;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .num{
+        width: 80px;
+        height: 80px;
+        background-color: white;
+        border-radius: 40px;
+        font-size: xx-large;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+    }
+    .firstRow, .secondRow{
+        width: 100%;
+        height: 90px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class=round>On</div>
+        <div class="firstRow">
+            <div class="num">1</div>
+            <div class="num">2</div>
+            <div class="num">3</div>
+        </div>
+        <div class="secondRow">
+            <div class="num">4</div>
+            <div class="num">5</div>
+            <div class="num">6</div>
+        </div>
+        <div class="secondRow">
+            <div class="num">7</div>
+            <div class="num">8</div>
+            <div class="num">9</div>
+        </div>
+        <div class="thirdRow">
+            <div class="num">0</div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform</title>
+</head>
+<style>
+    .container{
+        margin: 0px auto;
+        margin-top: 300px;
+        position: relative;
+        width: 206px;
+        height: 190px;
+    }
+    .container1{
+        width: 100px;
+        height: 100px;
+        background-color: antiquewhite;
+border: solid 4px #ccc;
+transform: skew(180deg,210deg);
+top: 50px;
+position: absolute;
+    }
+    .container2{
+        width: 100px;
+        height: 100px;
+        background-color: gray;
+        border: solid 4px #ccc;
+        transform: skew(180deg, 150deg);
+        position: absolute;
+        left: 102px;
+        top: 50px;
+    }
+    .container3{
+        width: 114px;
+        height: 100px;
+        background-color: antiquewhite;
+        border: solid 4px #ccc;
+        transform:rotate(150deg) translate(-40px,-16px) skew(30deg,0deg) ;
+        position: absolute;
+        left: 0px;
+        top: -30px;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="container1"></div>
+        <div class="container2"></div>
+        <div class="container3"></div>
+    </div>
+</body>
+</html>
